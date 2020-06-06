@@ -12,3 +12,14 @@ Trabalho de Conclusão de Curso, apresentado ao Curso de Especialização em Ci�
        -Programas Utilizados
        -Arquitetura
        -Configurações realizadas](#)
+
+
+# Fontes de Dados
+
+### DADOS ACIDENTES RODOVIÁRIOS PRF
+#### Dados Acidentes 2017 : https://arquivos.prf.gov.br/arquivos/index.php/s/kgJ0ea8QZrix5Yt
+#### Dados Acidentes 2018 : https://arquivos.prf.gov.br/arquivos/index.php/s/EF4uPKCihT0ouXd
+#### Dados Acidentes 2019 : https://arquivos.prf.gov.br/arquivos/index.php/s/sdvJndbl5wLyh3J
+#### Dados Acidentes 2020 :https://arquivos.prf.gov.br/arquivos/index.php/s/su5ocOO8HQGt06D
+
+
