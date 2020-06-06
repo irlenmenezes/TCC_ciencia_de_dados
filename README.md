@@ -27,6 +27,7 @@ Trabalho de Conclusão de Curso, apresentado ao Curso de Especialização em Ci�
 # Programas Utilizados
 ### Os programas utilizados para esse trabalho são:
 
-##### Pacote Conda https://anaconda.org/anaconda/conda
-
+##### Pacote Conda - https://anaconda.org/anaconda/conda
+##### JupyterLab - https://jupyter.org/
+#####  Microsoft Office Excel - https://office.live.com/start/Excel.aspx?ui=pt-BR
 
