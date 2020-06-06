@@ -24,4 +24,9 @@ Trabalho de Conclusão de Curso, apresentado ao Curso de Especialização em Ci�
 ###### Dados Acidentes 2019 : https://arquivos.prf.gov.br/arquivos/index.php/s/sdvJndbl5wLyh3J
 ###### Dados Acidentes 2020 : https://arquivos.prf.gov.br/arquivos/index.php/s/su5ocOO8HQGt06D
 
+#Programas Utilizados
+###Os programas utilizados para esse trabalho são:
+
+Pacote Conda https://anaconda.org/anaconda/conda
+
 
