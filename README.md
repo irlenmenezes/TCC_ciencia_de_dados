@@ -2,6 +2,25 @@
 
 Trabalho de Conclusão de Curso, apresentado ao Curso de Especialização em Ciência de Dados e Big Data como requisito parcial à obtenção do título de especialista.
 
+### Objetivo de extrair insigth dos dados que estão brutos em CSV, fazendo a limpeza, tratamento e a transformação desses dados em visualização rica e interativa dos dados.
+
+Além disso quero responder as perguntas abaixo com esses dados:
+
+• Qual a quantidade de ocorrências e fatalidade ao longo do último triênio?
+• Quais as principais causas de acidentes e as causas mais letais?
+• Quais os principais tipos de acidentes e os acidentes mais letais?
+• Quais dias ocorrem os acidentes e quais dias são mais letais?
+• Quais as BRs tem mais acidentes e são mais letais?
+• Quais horários ocorrem os acidentes e em quais horários mais letais?
+• Qual região, estado e município tem mais acidentes e quais são as mais letais?
+• Quais são os principais influenciadores dos acidentes sem vitimas?
+• Quais são os principais influenciadores dos acidentes com vitimas fatais?
+• Quais são os principais influenciadores dos acidentes com vitimas feridas?
+• Quais as condições meteorológica influenciam em mais acidentes?
+• Baseado em ocorrências onde o fator humano foi o causador, quais foram os erros mais cometidos?
+• Qual a previsão de acidentes para os próximos meses?
+
+
 ### Pós-graduação Lato Sensu em Ciência de Dados e Big Data
 ![alt text](https://whatsrel.com.br/wp-content/uploads/2019/06/puc-minas.png)
 
