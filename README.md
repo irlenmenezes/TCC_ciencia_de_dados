@@ -6,19 +6,19 @@ Trabalho de Conclusão de Curso, apresentado ao Curso de Especialização em Ci�
 
 Além disso quero responder as perguntas abaixo com esses dados:
 
-• Qual a quantidade de ocorrências e fatalidade ao longo do último triênio?
-• Quais as principais causas de acidentes e as causas mais letais?
-• Quais os principais tipos de acidentes e os acidentes mais letais?
-• Quais dias ocorrem os acidentes e quais dias são mais letais?
-• Quais as BRs tem mais acidentes e são mais letais?
-• Quais horários ocorrem os acidentes e em quais horários mais letais?
-• Qual região, estado e município tem mais acidentes e quais são as mais letais?
-• Quais são os principais influenciadores dos acidentes sem vitimas?
-• Quais são os principais influenciadores dos acidentes com vitimas fatais?
-• Quais são os principais influenciadores dos acidentes com vitimas feridas?
-• Quais as condições meteorológica influenciam em mais acidentes?
-• Baseado em ocorrências onde o fator humano foi o causador, quais foram os erros mais cometidos?
-• Qual a previsão de acidentes para os próximos meses?
+• Qual a quantidade de ocorrências e fatalidade ao longo do último triênio? <br />
+• Quais as principais causas de acidentes e as causas mais letais?  <br />
+• Quais os principais tipos de acidentes e os acidentes mais letais?  <br />
+• Quais dias ocorrem os acidentes e quais dias são mais letais?  <br />
+• Quais as BRs tem mais acidentes e são mais letais?  <br />
+• Quais horários ocorrem os acidentes e em quais horários mais letais?  <br />
+• Qual região, estado e município tem mais acidentes e quais são as mais letais?  <br />
+• Quais são os principais influenciadores dos acidentes sem vitimas?  <br />
+• Quais são os principais influenciadores dos acidentes com vitimas fatais?  <br />
+• Quais são os principais influenciadores dos acidentes com vitimas feridas?  <br />
+• Quais as condições meteorológica influenciam em mais acidentes?  <br />
+• Baseado em ocorrências onde o fator humano foi o causador, quais foram os erros mais cometidos?  <br />
+• Qual a previsão de acidentes para os próximos meses?  <br />
 
 
 ### Pós-graduação Lato Sensu em Ciência de Dados e Big Data
