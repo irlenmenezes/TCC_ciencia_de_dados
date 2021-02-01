@@ -56,4 +56,6 @@ Além disso quero responder as perguntas abaixo com esses dados:
 
 ![alt text](http://irlenmenezes.com.br/tcc/dash1.png)
 
+https://app.powerbi.com/view?r=eyJrIjoiZjg4NTEyMjctMzYzYS00MzY0LWE3NGYtYjlmNTg2YzdiYjAyIiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9
+
 
