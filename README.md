@@ -20,9 +20,6 @@ Além disso quero responder as perguntas abaixo com esses dados:
 • Baseado em ocorrências onde o fator humano foi o causador, quais foram os erros mais cometidos?  <br />
 • Qual a previsão de acidentes para os próximos meses?  <br />
 
-## Previa do Dashboard
-
-![alt text](http://irlenmenezes.com.br/tcc/dash1.png)
 
 
 ### Pós-graduação Lato Sensu em Ciência de Dados e Big Data
@@ -54,5 +51,9 @@ Além disso quero responder as perguntas abaixo com esses dados:
 ##### JupyterLab - https://jupyter.org/
 #####  Microsoft Office Excel - https://office.live.com/start/Excel.aspx?ui=pt-BR
 ##### Microsoft Power BI - https://powerbi.microsoft.com/pt-br/
+
+## Previa do Dashboard
+
+![alt text](http://irlenmenezes.com.br/tcc/dash1.png)
 
 
