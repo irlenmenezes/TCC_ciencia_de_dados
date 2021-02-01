@@ -20,6 +20,10 @@ Além disso quero responder as perguntas abaixo com esses dados:
 • Baseado em ocorrências onde o fator humano foi o causador, quais foram os erros mais cometidos?  <br />
 • Qual a previsão de acidentes para os próximos meses?  <br />
 
+## Previa do Dashboard
+
+![alt text](http://irlenmenezes.com.br/tcc/dash1.png)
+
 
 ### Pós-graduação Lato Sensu em Ciência de Dados e Big Data
 ![alt text](https://whatsrel.com.br/wp-content/uploads/2019/06/puc-minas.png)
