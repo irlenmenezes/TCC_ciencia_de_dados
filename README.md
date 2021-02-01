@@ -55,5 +55,3 @@ Além disso quero responder as perguntas abaixo com esses dados:
 ## Previa do Dashboard
 
 ![alt text](http://irlenmenezes.com.br/tcc/dash1.png)
-
-<iframe width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZjg4NTEyMjctMzYzYS00MzY0LWE3NGYtYjlmNTg2YzdiYjAyIiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9&pageName=ReportSection9b972e35232b0fa4c980" frameborder="0" allowFullScreen="true"></iframe>
