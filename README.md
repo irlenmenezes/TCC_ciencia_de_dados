@@ -60,5 +60,5 @@ Além disso quero responder as perguntas abaixo com esses dados:
 
 ![alt text](http://irlenmenezes.com.br/tcc/dash1.png)
 
-# QR para o Dashboard
-![alt text](http://irlenmenezes.com.br/qrcode-dash.png)
+# Dashboard
+http://irlenmenezes.com.br/dash-tcc.html)
