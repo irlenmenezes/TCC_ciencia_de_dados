@@ -26,14 +26,6 @@ Além disso quero responder as perguntas abaixo com esses dados:
 ![alt text](https://whatsrel.com.br/wp-content/uploads/2019/06/puc-minas.png)
 
 
-### Table of Contents
-
--[Introdução](#)
-       [-Pastas do Projeto
-       -Fontes de Dados
-       -Programas Utilizados
-       -Arquitetura
-       -Configurações realizadas](#)
 
 # Fluxo do Projeto
 
