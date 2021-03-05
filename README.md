@@ -29,7 +29,7 @@ Além disso quero responder as perguntas abaixo com esses dados:
 
 # Fluxo do Projeto
 
-![alt text](http://irlenmenezes.com.br/tcc/fluxo.png)
+![alt text](https://irlenmenezes.com.br/tcc/fluxo.png)
 
 
 # Fontes de Dados
