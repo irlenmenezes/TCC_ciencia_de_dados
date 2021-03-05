@@ -53,7 +53,7 @@ Além disso quero responder as perguntas abaixo com esses dados:
 
 ## Previa do Dashboard
 
-![alt text](http://irlenmenezes.com.br/tcc/dash1.png)
+![alt text](https://irlenmenezes.com.br/tcc/dash1.png)
 
 # Dashboard
 http://irlenmenezes.com.br/dash-tcc.html
