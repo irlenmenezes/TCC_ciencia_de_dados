@@ -56,4 +56,4 @@ Além disso quero responder as perguntas abaixo com esses dados:
 ![alt text](https://irlenmenezes.com.br/tcc/dash1.png)
 
 # Dashboard
-http://irlenmenezes.com.br/dash-tcc.html
+https://irlenmenezes.com.br/dash-tcc.html
