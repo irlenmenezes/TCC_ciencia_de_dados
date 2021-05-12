@@ -4,7 +4,7 @@
 
 Em minha opinião, o acesso aos dados no Brasil ainda não é 100% democrativo, pois uma grande parcela da população não sabem manipular dados em XML, arquivos Brutos CSV, XLS e outros formatos em que esses dados são distribuidos. 
 
-A minha idéia com esse trabalho é montar um painel com as princis informações e com a possibilidade inclusive do usuário com alguns cliques refinar sua navegação através de filtros e assim conseguir explorar esses dados da melhor maneira.
+A minha idéia com esse trabalho é montar um painel com as principais informações e com a possibilidade inclusive do usuário com alguns cliques refinar sua navegação através de filtros e assim conseguir explorar esses dados da melhor maneira.
 
 Com esse ideia inicial, resolvi montar um projeto com objetivo de qualquer pessoa consiga interpretar essas infromações através de graficos e indicadores de forma didatica e rápida. 
 
