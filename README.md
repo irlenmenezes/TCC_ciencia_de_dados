@@ -1,7 +1,5 @@
 # Análise Exploratória de Dados dos Acidentes Rodoviários Brasileiros 🛣
 
-Trabalho de Conclusão de Curso, apresentado ao Curso de Especialização em Ciência de Dados e Big Data como requisito parcial à obtenção do título de especialista.
-
 ### Objetivo de extrair insigth dos dados que estão brutos em CSV, fazendo a limpeza, tratamento e a transformação desses dados em visualização rica e interativa dos dados.
 
 Em minha opinião, o acesso aos dados no Brasil ainda não é 100% democrativo, pois uma grande parcela da população não sabem manipular dados em XML, arquivos Brutos CSV, XLS e outros formatos em que esses dados são distribuidos. 
@@ -25,12 +23,6 @@ Com esse ideia inicial, resolvi montar um projeto com objetivo de qualquer pesso
 • Quais as condições meteorológica influenciam em mais acidentes?  <br />
 • Baseado em ocorrências onde o fator humano foi o causador, quais foram os erros mais cometidos?  <br />
 • Qual a previsão de acidentes para os próximos meses?  <br />
-
-
-
-### Pós-graduação Lato Sensu em Ciência de Dados e Big Data
-![alt text](https://whatsrel.com.br/wp-content/uploads/2019/06/puc-minas.png)
-
 
 
 # Fluxo do Projeto
