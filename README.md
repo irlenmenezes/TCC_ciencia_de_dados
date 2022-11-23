@@ -53,5 +53,3 @@ Com esse ideia inicial, resolvi montar um projeto com objetivo de qualquer pesso
 
 ![alt text](https://irlenmenezes.com.br/tcc/dash1.png)
 
-# Dashboard
-https://irlenmenezes.com.br/dash-tcc.html
