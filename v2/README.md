@@ -86,14 +86,19 @@ Além das perguntas do TCC original (quantidade, causas, tipos, dias, BRs, horá
 
 ## Roadmap
 
-- [ ] Ingestão dos CSVs PRF 2021-2025
-- [ ] Pipeline de limpeza modular
-- [ ] EDA comparativa pré/pós pandemia
-- [ ] Modelo de classificação de gravidade (baseline + LightGBM)
-- [ ] Modelo de forecast (SARIMA + Prophet)
-- [ ] Dashboard Streamlit com filtros interativos
-- [ ] Deploy no Streamlit Cloud
-- [ ] Testes automatizados + CI (GitHub Actions)
+- [x] Estrutura modular (`src/`, `dashboard/`, `tests/`)
+- [x] Script de ingestão parametrizável (PRF 2021-2025)
+- [x] Pipeline de limpeza → parquet consolidado
+- [x] Modelo de classificação: baseline LogReg + LightGBM com seleção do campeão
+- [x] Modelo de forecast: SARIMA + Prophet com avaliação MAE/MAPE
+- [x] Dashboard Streamlit com filtros interativos
+- [x] Testes automatizados + CI (GitHub Actions)
+- [x] Documentação de deploy (Streamlit Cloud)
+- [ ] Atualizar URLs reais dos CSVs PRF em `src/data/ingest.py`
+- [ ] EDA comparativa pré/pós pandemia (notebook 02)
+- [ ] Deploy efetivo no Streamlit Cloud
+- [ ] SHAP / interpretabilidade do classificador
+- [ ] Workflow agendado para reingestão mensal
 
 ## Autor
 
