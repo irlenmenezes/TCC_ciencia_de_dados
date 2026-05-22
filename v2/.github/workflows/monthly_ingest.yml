@@ -1,0 +1,48 @@
+name: Reingestão mensal PRF
+
+on:
+  schedule:
+    - cron: "0 6 1 * *"  # dia 1 de cada mês, 06:00 UTC
+  workflow_dispatch:      # permite disparo manual pela aba Actions
+
+permissions:
+  contents: write          # necessário para commitar o parquet atualizado
+
+concurrency:
+  group: monthly-ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Baixar CSVs do ano corrente
+        run: |
+          YEAR=$(date +%Y)
+          python -m src.data.ingest --years "$YEAR"
+
+      - name: Limpar e consolidar
+        run: python -m src.data.clean
+
+      - name: Commit do parquet atualizado (se mudou)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f data/processed/acidentes.parquet
+          if git diff --staged --quiet; then
+            echo "Nada mudou."
+          else
+            git commit -m "chore: reingestão mensal PRF ($(date +%Y-%m-%d))"
+            git push
+          fi

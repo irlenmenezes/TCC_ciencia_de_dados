@@ -9,6 +9,7 @@ help:
 	@echo "  make data        - baixa CSVs da PRF para data/raw/"
 	@echo "  make clean       - limpa e consolida dados em data/processed/"
 	@echo "  make train       - treina modelos de classificação e forecast"
+	@echo "  make explain     - gera explicações SHAP do classificador"
 	@echo "  make dashboard   - sobe o Streamlit"
 	@echo "  make test        - roda pytest"
 	@echo "  make lint        - roda ruff"
@@ -27,6 +28,9 @@ clean:
 train:
 	$(PYTHON) -m src.models.train_classification
 	$(PYTHON) -m src.models.train_forecast
+
+explain:
+	$(PYTHON) -m src.models.explain --sample 5000
 
 dashboard:
 	streamlit run dashboard/app.py

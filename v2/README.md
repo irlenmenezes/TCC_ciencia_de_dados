@@ -40,7 +40,9 @@ v2/
 │   ├── features/       # feature engineering
 │   ├── models/         # treino e inferência
 │   └── utils/          # helpers
-├── dashboard/          # app Streamlit
+├── dashboard/
+│   ├── app.py          # página principal (EDA + filtros)
+│   └── pages/          # páginas adicionais (previsão, SHAP)
 ├── tests/              # pytest
 └── docs/               # documentação técnica
 ```
@@ -62,7 +64,10 @@ python -m src.data.clean
 python -m src.models.train_classification
 python -m src.models.train_forecast
 
-# 5. Rodar dashboard
+# 5. Gerar explicações SHAP (opcional, mas usado no dashboard)
+python -m src.models.explain --sample 5000
+
+# 6. Rodar dashboard
 streamlit run dashboard/app.py
 ```
 
@@ -94,11 +99,13 @@ Além das perguntas do TCC original (quantidade, causas, tipos, dias, BRs, horá
 - [x] Dashboard Streamlit com filtros interativos
 - [x] Testes automatizados + CI (GitHub Actions)
 - [x] Documentação de deploy (Streamlit Cloud)
+- [x] SHAP / interpretabilidade do classificador (`src/models/explain.py`)
+- [x] EDA comparativa pré/pós pandemia (`notebooks/02_eda.ipynb`)
+- [x] Workflow agendado para reingestão mensal (`.github/workflows/monthly_ingest.yml`)
+- [x] Páginas Streamlit extras (previsão interativa, interpretabilidade)
 - [ ] Atualizar URLs reais dos CSVs PRF em `src/data/ingest.py`
-- [ ] EDA comparativa pré/pós pandemia (notebook 02)
 - [ ] Deploy efetivo no Streamlit Cloud
-- [ ] SHAP / interpretabilidade do classificador
-- [ ] Workflow agendado para reingestão mensal
+- [ ] Monitoramento de drift (PSI/KS sobre dados novos)
 
 ## Autor
 
