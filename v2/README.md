@@ -55,7 +55,12 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
 # 2. Baixar dados da PRF (2021-2025)
+#    Tenta scraping automático; se falhar, preencha config/prf_urls.yml
+#    com os tokens (instruções no próprio arquivo) e rode de novo.
 python -m src.data.ingest --years 2021 2022 2023 2024 2025
+
+#    Para apenas listar os tokens descobertos (sem baixar):
+python -m src.data.ingest --list
 
 # 3. Limpar e consolidar
 python -m src.data.clean
@@ -103,7 +108,7 @@ Além das perguntas do TCC original (quantidade, causas, tipos, dias, BRs, horá
 - [x] EDA comparativa pré/pós pandemia (`notebooks/02_eda.ipynb`)
 - [x] Workflow agendado para reingestão mensal (`.github/workflows/monthly_ingest.yml`)
 - [x] Páginas Streamlit extras (previsão interativa, interpretabilidade)
-- [ ] Atualizar URLs reais dos CSVs PRF em `src/data/ingest.py`
+- [x] Ingestão configurável (scraping automático + tokens manuais em `config/prf_urls.yml`)
 - [ ] Deploy efetivo no Streamlit Cloud
 - [ ] Monitoramento de drift (PSI/KS sobre dados novos)
 

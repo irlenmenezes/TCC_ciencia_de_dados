@@ -1,0 +1,38 @@
+# Tokens dos arquivos CSV da PRF (ownCloud).
+#
+# Como descobrir um token:
+#
+# 1. Acesse https://portal.prf.gov.br/dados-abertos-acidentes
+# 2. Encontre o link de download do CSV desejado, ex.:
+#    "Agrupados por ocorrência → 2024"
+# 3. Clique-direito → "Copiar endereço do link"
+# 4. O link vem no formato:
+#    http://arquivos.prf.gov.br/arquivos/index.php/s/AbCdEfGhIjKlMnO/download
+# 5. Cole apenas a parte do token (AbCdEfGhIjKlMnO) na chave correspondente
+#    abaixo. Não inclua o "/download".
+#
+# Tokens conhecidos do TCC original (2017-2020), para referência:
+#
+# acidentes_ocorrencia:
+#   2017: "kgJ0ea8QZrix5Yt"
+#   2018: "EF4uPKCihT0ouXd"
+#   2019: "sdvJndbl5wLyh3J"
+#   2020: "su5ocOO8HQGt06D"
+#
+# A PRF pode reemitir tokens — sempre confira no site se um download falhar.
+# Se este arquivo estiver vazio, o ingest.py tenta extrair os tokens
+# automaticamente da página HTML da PRF (scraping com BeautifulSoup).
+
+acidentes_ocorrencia:
+  2021: ""   # cole o token aqui
+  2022: ""
+  2023: ""
+  2024: ""
+  2025: ""
+
+acidentes_pessoa:
+  2021: ""
+  2022: ""
+  2023: ""
+  2024: ""
+  2025: ""
